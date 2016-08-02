@@ -45,7 +45,7 @@ import threading
 
 __version__ = version.__version__
 # MULTICHAIN START
-ABE_APPNAME = "MultiChain Explorer"
+ABE_APPNAME = "VloomChain Explorer"
 ABE_VERSION = __version__
 ABE_URL = 'https://github.com/multichain/multichain-explorer'
 
@@ -88,7 +88,7 @@ DEFAULT_TEMPLATE = """
 <body>
     <div class="container">
 	<table><td>
-	<a title="Back to home" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="MultiChain logo" /></a>
+	<a title="Back to home" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="VloomChain logo" /></a>
 	</td><td style="padding-left: 10px;" valign="middle">
 	<h1>%(h1)s<h1>
 	</td></table>
